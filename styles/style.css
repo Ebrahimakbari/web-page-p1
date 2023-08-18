@@ -5,11 +5,16 @@ body{
     margin: 0px;
     font-family: sans-serif;
     background-color: rgb(245, 244, 230);
+    background-image: url("../image/pic3.jpg");
+    background-position: center;
+    background-attachment: fixed;
 }
 li a{
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     padding: 15px;
 }
@@ -23,12 +28,17 @@ ul{
     padding: 0px;
     margin:0px;
     text-align: center;
-    background-image: url("../image/pic1.jpg");
+    background-color: rgba(238, 224, 30, 0.582);
 
 }
 li{
     display: inline-block;
     padding: 0px;
+}
+#topp{
+    height: 900px;
+    background-image: url("");
+    box-shadow: none;
 }
 h1{
     background-color: rgba(204, 65, 65, 0.705);
@@ -39,11 +49,13 @@ h1{
 p{
     margin-top: 0px;
     padding: 20px;
+    font-size: 20px;
 }
 div{
     background-image: url('../image/pic1.jpg');
+    background-attachment: scroll;
     padding: 20px;
-    margin: 15px;
+    margin: 25px;
     border-radius: 50px;
     text-align: justify;
     box-shadow: 0 0 7px 1px rgb(240, 101, 101);
