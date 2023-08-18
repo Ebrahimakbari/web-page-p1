@@ -4,6 +4,7 @@ html{
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(245, 244, 230);
 }
 li a{
     text-decoration: none;
@@ -13,41 +14,44 @@ li a{
     padding: 15px;
 }
 li a:hover{
-    background-color: gray;
-    border-left: 5px solid red;
+    background-color: rgba(128, 128, 128, 0.397);
+    box-shadow: 0px 0px 15px 1px red;
+    color: white;
 }
 ul{
     list-style-type: none;
     padding: 0px;
     margin:0px;
-    background-color: lightgray;
     text-align: center;
+    background-image: url("../image/pic1.jpg");
+
 }
 li{
     display: inline-block;
     padding: 0px;
 }
 h1{
-    background-color: cadetblue;
+    background-color: rgba(204, 65, 65, 0.705);
     padding: 20px;
     border-radius: 50px;
+    box-shadow: 0px 0px 15px 10px rgba(255, 88, 88, 0.699);
 }
 p{
     margin-top: 0px;
     padding: 20px;
 }
 div{
-    background-color: blanchedalmond;
+    background-image: url('../image/pic1.jpg');
     padding: 20px;
     margin: 15px;
     border-radius: 50px;
     text-align: justify;
-    box-shadow: 0 0 15px lightgray;
+    box-shadow: 0 0 7px 1px rgb(240, 101, 101);
 }
 #to{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(246, 250, 16, 0.692);
     color: black;
-    font-size:34px;
+    font-size:44px;
     padding: 15px;
     text-decoration: none;
     border-radius: 30px;
@@ -55,11 +59,15 @@ div{
 }
 #divtop{
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(170, 48, 48);
     padding: 0px;
+    box-shadow: 0px 0px 15px 5px rgb(121, 121, 121);
 }
 #to:hover{
-    background-color: lightgray;
+    background-color: rgba(145, 145, 145, 0.63);
+    color: white;
+    box-shadow: 0px 0px 15px 5px rgb(211, 32, 32);
+
 }
 .container{
     width: 700px;
@@ -68,7 +76,7 @@ div{
     box-sizing: border-box;
     padding-top: 20px;
     text-align: center;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px 10px gray;
     margin: 100px auto;
     border-radius: 10px;
 }
@@ -95,7 +103,7 @@ div{
     height: 54px;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 10px 10px gray;
 }
 .desc{
     font-size: large;
