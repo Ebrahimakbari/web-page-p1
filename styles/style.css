@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ebrahim;
+    src: url("../fonts/Byekan.ttf") format('truetype'),
+    url("../fonts/Byekan.woff") format('woff');
+}
 html{
     scroll-behavior: smooth;
 }
@@ -5,14 +10,41 @@ body{
     margin: 0px;
     font-family: sans-serif;
     background-color: rgb(245, 244, 230);
-    background-image: url("../image/pic3.jpg");
+    background-image: url("../image/bg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
+.menu{
+    height: 900px;
+    margin: auto;
+    padding: 190px;
+    background-image: url("../image/background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px;
+}
+#name{
+    background-color: rgba(113, 116, 119, 0);
+    text-align: center;
+    color: aliceblue;
+    box-shadow: none;
+    font-size: 55px;
+}
+#namespan{
+    color: red;
+}
+#des{
+    background-color: rgba(255, 255, 255, 0.103);
+    color: aliceblue;
+    display: inline-block;
+    box-shadow: 0px 0px 15px 5px gray;
+    margin-left: 28%;
+}
 li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,24 +54,48 @@ li a{
 li a:hover{
     background-color: rgba(128, 128, 128, 0.397);
     box-shadow: 0px 0px 15px 1px red;
-    color: white;
+    color: rgba(212, 193, 20, 0.884);
 }
 ul{
     list-style-type: none;
     padding: 0px;
     margin:0px;
     text-align: center;
-    background-color: rgba(238, 224, 30, 0.582);
-
+    background-color:rgba(100, 93, 93, 0)
 }
 li{
     display: inline-block;
     padding: 0px;
+    box-shadow: 0px 0px 10px 1px rgb(85, 85, 85);
 }
 #topp{
     height: 900px;
     background-image: url("");
     box-shadow: none;
+}
+#members{
+    height: fit-content;
+    background-image: url("../image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    margin: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+
+}
+.member1{
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+    background-image: none;
+    background-color: rgba(240, 255, 255, 0.61);
+    box-shadow: 0px 0px 10px 1px yellow;
+}
+.membername{
+    display: inline;
+    font-size: 50px;
 }
 h1{
     background-color: rgba(204, 65, 65, 0.705);
@@ -62,25 +118,29 @@ div{
     box-shadow: 0 0 7px 1px rgb(240, 101, 101);
 }
 #to{
-    background-color: rgba(246, 250, 16, 0.692);
-    color: black;
-    font-size:44px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    font-weight: bold;
     padding: 15px;
     text-decoration: none;
     border-radius: 30px;
-    display: block;
+    display: inline-block;
 }
 #divtop{
-    text-align: center;
-    background-color: rgb(170, 48, 48);
+    margin: auto;
+    width: fit-content;
     padding: 0px;
-    box-shadow: 0px 0px 15px 5px rgb(121, 121, 121);
+    box-shadow: 0px 0px 15px 5px gray;
+    border-radius: 50%;
+    background-image: none;
+    background-color: rgba(189, 137, 40, 0.719);
 }
 #to:hover{
-    background-color: rgba(145, 145, 145, 0.63);
-    color: white;
+    background-color: rgba(145, 145, 145, 0);
+    color: rgb(204, 206, 87);
     box-shadow: 0px 0px 15px 5px rgb(211, 32, 32);
-
+    border-radius: 50%;
 }
 .container{
     width: 700px;
@@ -93,10 +153,30 @@ div{
     margin: 100px auto;
     border-radius: 10px;
 }
-.logo{
+img{
     width: 200px;
-    border: 2px dotted gray;
+    border: 1px solid rgb(240, 255, 101);
     border-radius: 50%;
+    display: inline-block;
+}
+#me{
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+#about{
+    color: rgb(255, 255, 255);
+    margin-left: 42.5%;
+    font-size: 50px;
+    box-shadow: 0px 0px 15px 5px gray;
+    background-color: rgba(189, 137, 40, 0.719);
+    display: inline-block;
+
+}
+.newstyle{
+    margin: 50px;
+    box-shadow: 0px 0px 15px 5px rgb(211, 32, 32);
+
 }
 .title{
     font-size: 30px;
