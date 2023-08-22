@@ -178,20 +178,13 @@ img{
     width: fit-content;
     margin: auto;
 }
-.socials img{
-    width: 70px;
-    border: 1px solid rgba(128, 128, 128, 0);
-    box-sizing: border-box;
-}
-.socials img:hover{
-    box-shadow: 0px 0px 15px 1px red;
-    background-image: none;
-    background-color: red;
+.socials i:hover{
+    color: rgb(117, 116, 10) !important;
 }
 .socials{
     background-image: url("../image/pic1.jpg");
     background-size: cover;
-    height: 70px;
+    height: 50px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 10px 10px gray;
