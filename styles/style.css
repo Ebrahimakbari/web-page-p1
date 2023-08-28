@@ -139,6 +139,44 @@ li a:hover{
     border-radius: 60px;
     padding: 25px;
 }
+.table{
+    background-image: url('../image/pic1.jpg');
+    background-attachment: scroll;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 50px;
+    text-align: justify;
+    box-shadow: 0 0 7px 1px rgb(240, 101, 101);
+}
+#table{
+    font-size: 55px;
+    font-family: ebrahim2;
+    font-weight: bold;
+    background-color: rgba(202, 89, 37, 0.63);
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 60px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:first-of-type{
+    background-color: rgba(127, 255, 212, 0.5);
+}
+td , th{
+    border: 5px solid black;
+}
+tr:nth-last-of-type(odd){
+    background-color: rgba(211, 211, 211, 0.5);
+}
+tr:hover{
+    background-color: rgba(128, 128, 128, 0.6);
+    color: white;
+}
 #div-me{
     text-align: center;
     height: 950px;
